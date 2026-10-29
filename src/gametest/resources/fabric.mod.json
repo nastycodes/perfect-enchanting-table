@@ -1,0 +1,15 @@
+{
+	"schemaVersion": 1,
+	"id": "perfectenchanting-gametest",
+	"version": "1.0.0",
+	"name": "Perfect Enchanting Table Game Tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"codes.nasty.perfectenchanting.test.PerfectEnchantingClientGameTest"
+		]
+	},
+	"depends": {
+		"perfectenchanting": "*"
+	}
+}

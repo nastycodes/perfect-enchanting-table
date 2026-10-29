@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"LBL",
+		"DED",
+		"LLL"
+	],
+	"key": {
+		"B": "minecraft:book",
+		"D": "minecraft:diamond",
+		"E": "minecraft:enchanting_table",
+		"L": "minecraft:lapis_block"
+	},
+	"result": {
+		"id": "perfectenchanting:perfect_enchanting_table",
+		"count": 1
+	}
+}

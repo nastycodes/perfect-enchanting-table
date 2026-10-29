@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "perfectenchanting",
+	"version": "${version}",
+	"name": "Perfect Enchanting Table",
+	"description": "Adds the Perfect Enchanting Table: pick any enchantment the item supports, at the level you want, one after another. Searchable list, renaming included, paid with lapis lazuli only - no experience, no randomness.",
+	"authors": [
+		"nasty.codes"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/${slug}",
+		"sources": "https://github.com/nastycodes/perfect-enchanting-table",
+		"issues": "https://github.com/nastycodes/perfect-enchanting-table/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/perfectenchanting/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"codes.nasty.perfectenchanting.PerfectEnchanting"
+		],
+		"client": [
+			"codes.nasty.perfectenchanting.client.PerfectEnchantingClient"
+		],
+		"modmenu": [
+			"codes.nasty.perfectenchanting.client.config.ModMenuIntegration"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

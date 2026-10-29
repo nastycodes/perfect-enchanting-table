@@ -1,0 +1,6 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "perfectenchanting:block/perfect_enchanting_table"
+	}
+}

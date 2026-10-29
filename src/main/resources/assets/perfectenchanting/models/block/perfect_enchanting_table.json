@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/enchanting_table",
+	"textures": {
+		"particle": "perfectenchanting:block/perfect_enchanting_table_side",
+		"bottom": "perfectenchanting:block/perfect_enchanting_table_bottom",
+		"top": "perfectenchanting:block/perfect_enchanting_table_top",
+		"side": "perfectenchanting:block/perfect_enchanting_table_side"
+	}
+}
